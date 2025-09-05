@@ -27,5 +27,5 @@ It’s based on [LazyVim](https://github.com/LazyVim/LazyVim) with LSP, DAP, tes
 Clone into your Neovim config directory:
 
 ```bash
-git clone https://github.com/yourname/nvim-config.git ~/.config/nvim
+git clone https://github.com/iafarhan/dotfiles-nvim.git ~/.config/nvim
 nvim
