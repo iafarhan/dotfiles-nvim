@@ -49,14 +49,22 @@ return {
   {
     "folke/snacks.nvim",
     optional = true,
+    opts = {
+      picker = {
+        files = {
+          hidden = true,
+          ignored = true,
+        },
+      },
+    },
     keys = {
 
       {
         "<leader><leader>",
         function()
-          require("snacks").picker.files()
+          require("snacks").picker.files({ hidden = true, ignored = true })
         end,
-        desc = "Find Files",
+        desc = "Find Files and hidden",
       },
 
       {
